@@ -3,6 +3,7 @@ displayName: "[red]hardmode"
 author: "[gold]joshwelyt"
 description: "[gold]makes game harder more weapons for
 Player, not for novice"
+repo: https://github.com/Joshwelyt/Hardmode-remade
 version: beta 1.0.0
 hidden: false
 minGameVersion: 114
