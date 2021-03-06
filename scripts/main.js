@@ -18,8 +18,7 @@ if(!Vars.headless){
     Time.run(Fx.coreLand.lifetime, () => {
       var core = Vars.player.closestCore();
       if(core != null){
-        //F u c k i n g   e x p l o d e
-        //credit to meepoffaith for kode
+       
         Fx.dynamicExplosion.at(core.getX(), core.getY(), 20 + Mathf.pow(core.block.size, 2), core.block);
         Effect.shake(30 + Mathf.pow(core.block.size, 2), 200 + Mathf.pow(core.block.size, 3), core);
         Vars.ui.showInfoPopup("[red]hardmode has begun[]", 5, Align.center, 192, 0, 0, 0);
